@@ -1,4 +1,4 @@
-%Calculate the area and circumference of a circle with a radius of 4 cm.
+%Calculate the area and circumference of a circle with a radius of 4 cm
 radious = 4;
 area = pi * radious^2;
 circumference = 2 * pi * radious;
