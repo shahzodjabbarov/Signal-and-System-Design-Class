@@ -1,0 +1,7 @@
+% % %* The equation for a 10 Hz sine wave with an amplitude of 3 i 3sin(2π(10)t). 
+% % A frequency of 10 Hz means the sine wave completes 10 c
+% % ycles in 1 second.
+
+t = 0:0.02:0.6;
+y = 3*sin(2*pi*10*t);
+plot(t, y);
