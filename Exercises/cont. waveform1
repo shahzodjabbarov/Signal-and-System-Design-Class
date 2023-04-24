@@ -1,0 +1,5 @@
+t = lispace(0.3*pi);
+x = square(t);
+plot(t/pi,x, '.-', t/pi, sin(t))
+xlabel('t/\pi')
+grid on
