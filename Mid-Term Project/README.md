@@ -28,6 +28,7 @@ user to enter the type of operation, type of signal, and amount of shift or scal
 MATLAB functions, the software defines the sine wave, square wave, pulse train wave, and
 dirichlet wave . The software uses switch-case statements to execute the appropriate operation on
 the selected signal for each given operation and signal type.
+
 #For shifting, the program checks if the shift value is positive or negative and rounds up or down, 
 respectively. The program then uses the circshift function to shift the discrete signals and shifts the 
 continuous signals using time-domain shifting.
