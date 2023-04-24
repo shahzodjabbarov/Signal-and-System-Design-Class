@@ -22,6 +22,7 @@ previous page by pressing the “Go Back” button.
 
 
 **How it works**
+
 Shifting, scaling, and reversing are three of the actions carried out on four different signals by the
 MATLAB software mentioned above. Based on the selected operation, the application prompts the
 user to enter the type of operation, type of signal, and amount of shift or scaling factor.Then, using
