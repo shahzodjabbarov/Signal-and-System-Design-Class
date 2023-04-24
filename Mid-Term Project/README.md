@@ -31,7 +31,9 @@ the selected signal for each given operation and signal type.
 #For shifting, the program checks if the shift value is positive or negative and rounds up or down, 
 respectively. The program then uses the circshift function to shift the discrete signals and shifts the 
 continuous signals using time-domain shifting.
+
 #For scaling, the program checks if the scaling factor is zero and throws an error if so. The 
 program then scales the discrete signals by multiplying with the scaling factor and scales the 
 continuous signals using amplitude scaling.
+
 #For reversing, the program uses the fliplr function to reverse the discrete signals and timereverses the continuous signals
